@@ -93,6 +93,10 @@ function initializeCP()
 	}
 	
 	cpInit();
+	$(document).ready(function() {
+       $("#playImage").animate({left: "+=-190px", top: "+=0px"});
+   });
+
 	initialized = true;
 	if(isLivePreview() === true)
 	{	
